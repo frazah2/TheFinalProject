@@ -1,0 +1,209 @@
+#destinations {
+    padding: 120px 0;
+}
+
+.container {
+    max-width: 1200px;
+    /* margin: 0 auto; */
+    padding: 0 15px;
+}
+
+.heading-section {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 0 15px 24px 15px;
+    margin: 0 -15px;
+}
+
+.heading-section span {
+    display: block;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #f15d30;
+    font-family: "Arizonia", cursive;
+    margin-bottom: 5px;
+}
+
+.heading-section h3 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 24px;
+}
+
+.destination-card {
+    background-color: white;
+    padding: 0 15px;
+    transition: transform 0.3s ease;
+}
+
+.destination-card:hover {
+    transform: translateY(-5px);
+}
+
+.thedestiimg1,
+.thedestiimg2,
+.thedestiimg3,
+.thedestiimg4,
+.thedestiimg5,
+.thedestiimg6, 
+.thedestiimg7,
+.thedestiimg8,
+.thedestiimg9 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+}
+
+.thedestiimg1 {
+    background-image: url('../../images/destination-1.jpg');
+}
+
+.thedestiimg2 {
+    background-image: url('../../images/destination-2.jpg');
+}
+
+.thedestiimg3 {
+    background-image: url('../../images/destination-3.jpg');
+}
+
+.thedestiimg4 {
+    background-image: url('../../images/destination-4.jpg');
+}
+
+.thedestiimg5 {
+    background-image: url('../../images/destination-5.jpg');
+}
+
+.thedestiimg6 {
+    background-image: url('../../images/destination-6.jpg');
+}
+.carddescrip{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -40px;
+    background-color: white;
+    box-shadow: 0px 10px 23px -8px rgba(0, 0, 0, 0.11);
+}
+.carddescrip span{
+    font-size: 12px;
+    color: #f15d30;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.8;
+}
+.carddescrip h3 a{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+.carddescrip p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+.carddescrip ul{
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+.carddescrip ul li{
+    display: inline-block;
+    color: #b3b3b3;
+    line-height: 1.8;
+    margin-bottom: 8px;
+    margin-left: 28px;
+}
+
+.location-icon {
+    display: flex;
+    align-items: center;
+}
+
+.location-icon::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url('../../images/maps-and-flags.png');
+    background-size: cover;
+    margin-right: 8px;
+    margin-top: -15px;
+    opacity: 0.3;
+}
+
+.iconn {
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    margin-right: 8px;
+    position: relative;
+    top: 20px;
+    left: -30px;
+}
+.fir{
+    background-image: url('../../images/bath-tub.png');
+}
+.seco{
+    background-image: url('../../images/bed.png');
+    width: 20px;
+    height: 20px;
+    top: 23px;
+}
+.thir{
+    background-image: url('../../images/mountains.png');
+    width: 20px;
+    height: 20px;
+    top: 23px;
+}
+.fouree{
+    background-image: url('../../images/sun-umbrella.png');
+    width: 20px;
+    height: 20px;
+    top: 23px;
+}
+.personprice::before{
+    position: absolute;
+    top: 0px;
+    right: -9px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 10px 10px;
+    border-color: transparent transparent #c7390d transparent;
+    rotate: 90deg;
+}
+.personprice{
+    position: relative;
+    top: -5px;
+    left: 20px;
+    background: #f15d30;
+    color: #fff;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+.personprice::after{
+    position: absolute;
+    top: 0px;
+    left: -9px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 10px 10px;
+    border-color: transparent transparent #c7390d transparent;
+}

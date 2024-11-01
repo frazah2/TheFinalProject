@@ -1,0 +1,133 @@
+.see-destination-swiper {
+    width: 100%;
+    height: 340px; 
+}
+
+.see-destination-swiper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.see-destination-header span {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.see-destination-header h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+.see-destination-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.see-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #f15d30; 
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.see-dot.active {
+    background-color: grey; 
+}
+
+.see-dot:hover {
+    background-color: #f15d30; 
+}
+.container2{
+    padding: 0 60px;
+}
+#see-destination-section{
+    padding: 112px 0;
+    background-image: url('../../images/bg_3.jpg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+}
+.destination-text{
+    padding: 20px;
+    position: relative;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    height: 320px;
+}
+.destination-text h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    top: -372px;
+    left: 20px;
+    margin-top: -8px;
+    padding: 4px 10px;
+    background: #f15d30;
+    z-index: 20;
+}
+.destination-text span{
+    position: absolute;
+    top: -100px;
+    right: -5px;
+    display: inline-block;
+    background: #f15d30;
+    padding: 4px 5px 4px 15px;
+    border-radius: 20px 0 0 20px;
+    color: #fff;
+    z-index: 20;
+    transition: 0.2s;
+}
+.destination-text span::after{
+        position: absolute;
+        top: -5px;
+        right: 0.5px;
+        content: '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 0 5px 5px;
+        border-color: transparent transparent #c7390d transparent;
+        rotate: 90deg;
+}
+.destination-text h3::before{
+    position: absolute;
+    top: 0px;
+    right: -9px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 10px 10px;
+    border-color: transparent transparent #c7390d transparent;
+    rotate: 90deg;
+}
+.destination-text h3::after{
+    position: absolute;
+    top: 0px;
+    left: -9px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 10px 10px;
+    border-color: transparent transparent #c7390d transparent;
+}
+.see-destination-swiper img:hover + .destination-text span{
+    padding-right: 20px ;
+}
+
+.see-destination-swiper img {
+    width: 100%;
+}

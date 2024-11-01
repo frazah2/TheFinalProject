@@ -1,0 +1,136 @@
+
+.lastword p, i{
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+.colo:hover{
+    cursor: pointer;
+    color: #f15d30;
+}
+.footer{
+    background-image: url('../images/bg_3.jpg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top: 1px solid #dee2e6 !important;
+    line-height: 1.8;
+    padding-bottom: 112px;
+}
+.thebordering{
+    border-left: 1px solid #dee2e6 !important;
+}
+.footer h2{
+    font-weight: normal;
+    color: #000000;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer ul{
+    list-style: none;
+    line-height: 1.8;
+    padding: 0;
+}
+.isider{
+    margin-left: 48px;
+}
+li{
+    line-height: 1.8;
+    padding: 8px 0;
+}
+.socualsli{
+   list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+    padding: 0;
+}
+.socuals{
+     height: 40px;
+    width: 40px;
+    display: block;
+    float: left;
+    color: #f15d30;
+    border-radius: 50%;
+    position: relative;
+    background: #f15d30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socio1{
+    background-image: url('../images/twitter.png');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+.socio2{
+    background-image: url('../images/facebook.png');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+.socio3{
+    background-image: url('../images/instagram.png');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+.theiconforlast{
+    background-image: url('../images/location-pin.png');
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    position: absolute;
+    top: 5px;
+    left: -20px;
+}
+.theiconforlast2{
+    background-image: url('../images/phone-receiver-silhouette.png');
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    position: absolute;
+    top: 3px;
+    left: -20px;
+}
+.theiconforlast3{
+    background-image: url('../images/paper-plane.png');
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    position: absolute;
+    top: 60px;
+    left: -20px;
+}
+.thefooterlocati ul li a{
+    float: left;
+    color: #999999;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+.thefooterlocati ul li{
+    position: relative;
+    line-height: 1.5;
+    padding: 0;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+.aboutfoot{
+    padding-left: 30px;
+}
+.thefooterlocati ul li p{
+    margin: 0;
+}
+@media (max-width: 840px){
+    .thefooterlocati ul li p{
+        margin: 0;
+        margin-right: 400px;
+    }
+}
+.isider a{
+    text-decoration: none;
+    color: #999999;
+}

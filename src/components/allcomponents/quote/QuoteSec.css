@@ -1,0 +1,53 @@
+.qoutesecdiv{
+    padding-bottom: 112px;
+}
+.conti{
+    width: 100%;
+    margin-left: auto;
+}
+.rowquote{
+    padding: 0;
+    margin: 0;
+}
+.quoteimg{
+    background-image: url('../../images/bg_2.jpg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    padding: 3em;
+    z-index: 0;
+}
+.quoteimg h2{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.quoteimg p{
+    color: #ffffffcc;
+    margin-bottom: 32px;
+}
+.quotebutton{
+    padding: 16px 24px;
+    background: #f15d30;
+    border-radius: 5px;
+    display: inline;
+    color: white !important;
+    text-decoration: none;
+}
+.text-center{
+    text-align: center;
+    padding: 0;
+}
+.overlayquote{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .6;
+    background: #040e26;
+    z-index: -1;
+}

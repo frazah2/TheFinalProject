@@ -1,0 +1,127 @@
+.iconcontact{
+    width: 100px;
+    height: 100px;
+    background: #f15d30;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 50%;;
+}
+.contactcardinfo h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #f15d30;
+    margin-bottom: 0.5rem;
+}
+.imgiconcontact1{
+    background-image: url('../images/location-pin\ \(1\).png');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imgiconcontact2{
+    background-image: url('../images/phone-call.png');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imgiconcontact3{
+    background-image: url('../images/paper-plane\ \(1\).png');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imgiconcontact4{
+    background-image: url('../images/world.png');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contactcardinfo{
+    width: 100%;
+    display: block;
+    background: rgba(0, 0, 0, 0.05);
+}
+.contactcardinfo a{
+    color: rgba(0, 0, 0, 0.848);
+    text-decoration: none;
+}
+.contactinfo{
+    padding-top: 112px;
+    margin-bottom: 24px;
+}
+
+
+
+.forum-message-container {
+    max-width: 600px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+.forum-message-container h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    height: 52px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+.forum-message-container input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+.forum-message-container button {
+    background-color: #f15d30;
+    padding: 16px 48px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #f15d30 !important;
+    display: inline;
+    margin-bottom: 16px;
+  }
+  
+.forum-message-container input{
+    padding: 6px 12px;
+}
+.thepad{
+    padding: 0px 15px;
+    display: flex;
+    justify-content: center;
+}
+.mesgrup{
+    height: inherit !important;
+}
+#message{
+    height: 170px;
+}
+.botumepad{
+    padding-bottom: 112px;
+}
+.thepadnot{
+    padding: 0;
+}
+@media (max-width: 768px) {
+    .contact-section2 .thepadnot{
+        padding-right: 0;
+    }
+}
+.containii{
+    display: flex;
+    justify-content: center;
+}

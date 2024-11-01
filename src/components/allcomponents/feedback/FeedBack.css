@@ -1,0 +1,179 @@
+.feedback-section {
+    padding: 112px 0;
+    background-image: url('../../images/bg_1.jpg.webp'); /* Ensure this path is correct */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+  }
+  
+  .feedback-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, #207ce5 0%, #13d42a 100%);
+    opacity: 0.6;
+    z-index: 1;
+  }
+  
+  .feedback-container {
+    position: relative;
+    z-index: 5;
+    text-align: center;
+  }
+  
+  .feedback-heading span,
+  .feedback-heading h2 {
+    color: white;
+  }
+  
+  .feedback-heading h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+  
+  .feedback-swiper-container {
+    width: 100%;
+    max-width: 1200px; /* Define a max width to prevent it from going out of bounds */
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+    overflow: hidden; /* Ensure no overflow */
+  }
+  
+  .feedback-swiper {
+    /* background: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* border-radius: 10px; */
+    padding: 20px;
+    transition: transform 0.3s ease;
+    width: auto;
+    height: auto;
+    
+      
+  }
+  
+  .feedback-text {
+    background-color: white;
+    padding: 24px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  
+  
+  .feedback-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  
+  .feedback-dot {
+    width: 9px;
+    height: 9px;
+    background-color: #00000034;
+    border-radius: 50%;
+    margin: 0 6px;
+    cursor: pointer;
+    opacity: 0.5;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .feedback-dot.active {
+    opacity: 1;
+    background-color: rgb(243, 97, 6) !important;
+    position: relative;
+    z-index: 99;
+
+  }
+  
+  .hshdsd {
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .hshdsd .col-md-12 {
+    padding: 0;
+  }
+  .starticon{
+    background-image: url('../../images/star\ \(1\).png');
+    width: 13px;
+    height: 13px;
+    background-size: cover;
+    margin-right: 5px;
+    position: relative;
+    z-index: 99;
+    margin-bottom: 8px;
+  }
+body{
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+  }
+  .userimagefeedbak{
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 0 50% 50% 50%;
+  }
+  .pers1{
+    background-image: url('../../images/person_1.jpg.webp');
+  }
+  .pers2{
+    background-image: url('../../images/person_2.jpg.webp');
+  }
+  .pers3{
+    background-image: url('../../images/person_3.jpg.webp');
+  }
+  .theposionandname p{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #000000 !important;
+  }
+  .feedbackpositions{
+    font-size: 16px;
+    color: #f15d30;
+  }
+  .theposionandname{
+    
+    padding-left: 16px;
+  }
+  
+
+.swiper-pagination {
+    text-align: center;
+    bottom: 5px !important;
+    z-index: 99 !important;
+  }
+  
+  .swiper-pagination-bullet {
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #ddd; 
+    border-radius: 50%;
+    margin: 0 5px;
+    opacity: 1;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style for the active pagination bullet */
+  .swiper-pagination-bullet-active {
+    background-color: #ff6600 !important;
+  }
+  .swiper-wrapper{
+    min-height: 350px;
+    padding-bottom: 35px;
+  }

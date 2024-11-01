@@ -1,0 +1,88 @@
+.hotelsearch{
+    padding-top: 162px;
+}
+.thehotelsall{
+    padding-top: 112px;
+}
+.thehotelimg1{
+    background-image: url('../images/hotel-resto-1.jpg.webp');
+}
+.thehotelimg2{
+    background-image: url('../images/hotel-resto-2.jpg.webp');
+}
+.thehotelimg3{
+    background-image: url('../images/hotel-resto-3.jpg.webp');
+}
+.thehotelimg4{
+    background-image: url('../images/hotel-resto-4.jpg.webp');
+}
+.thehotelimg5{
+    background-image: url('../images/hotel-resto-5.jpg.webp');
+}
+.thehotelimg6{
+    background-image: url('../images/hotel-resto-6.jpg.webp');
+}
+.thehotelimg7{
+    background-image: url('../images/hotel-resto-7.jpg.webp');
+}
+.thehotelimg8{
+    background-image: url('../images/hotel-resto-8.jpg.webp');
+}
+.thehotelimg9{
+    background-image: url('../images/hotel-resto-9.jpg.webp');
+}
+
+.thehotelimg1,
+.thehotelimg2,
+.thehotelimg3,
+.thehotelimg4,
+.thehotelimg5,
+.thehotelimg6,
+.thehotelimg7,
+.thehotelimg8,
+.thehotelimg9{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+}
+.thenumbers li{
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    color: white;
+    margin-right: 5px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 0;
+}
+.thenumbers li a{
+    color: #000000;
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e6e6e6;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.activlihotelsnumber{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.786);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.thehotelsall{
+    padding: 112px 0;
+}
+.thenumbers{
+    margin-top: 40px;
+}
+.thenumbers li a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.786);
+}
